@@ -17,4 +17,10 @@ describe("Token test", () => {
     assert((await token.balanceOf(account.address)).value.amount == '1000000');
   });
 
+  it("Could transfer lamports", async () => {
+    let user1 = mock.createKeypair();
+    await mock.transfer(provider.wallet.payer, user1.publicKey, 1000000);
+    assert.ok(await mock.getBalance(user1.publicKey) == 1000000);
+  });
+
 });

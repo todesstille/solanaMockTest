@@ -101,10 +101,10 @@
     rpc-websockets "^7.5.0"
     superstruct "^0.14.2"
 
-"@todesstille/mocksolana@=0.0.15":
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/@todesstille/mocksolana/-/mocksolana-0.0.15.tgz#54b64094d39a6ee39ab056ae57169e06de9979af"
-  integrity sha512-if3jPGGjK+fi5Sous+MfQ6BIgc3kEJbJvU6e97PVEHfAspmkiQghZvxMMycXaFo3RdwwwxSDGkCNqpvx/3eadQ==
+"@todesstille/mocksolana@=0.0.18":
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/@todesstille/mocksolana/-/mocksolana-0.0.18.tgz#5430ea45a74fcae75d6ecd0fefe6733b3498e16b"
+  integrity sha512-IG9kGeWEt638PF+1lilUlZE9LUrKD7Re6OaBQ1fUqbMC1ELxfuBr/QePQnC54w4WM00GDfQIyce99bUGxVbXNw==
   dependencies:
     "@solana/spl-token" "^0.3.6"
 
