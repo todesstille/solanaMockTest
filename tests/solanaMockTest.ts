@@ -1,10 +1,11 @@
 import * as anchor from "@project-serum/anchor";
 import { Program } from "@project-serum/anchor";
 import { SolanaMockTest } from "../target/types/solana_mock_test";
+import { Mock } from "@todesstille/mocksolana";
+const mock = new Mock(anchor);
+const provider = mock.getProvider();
 
 describe("solanaMockTest", () => {
-  // Configure the client to use the local cluster.
-  anchor.setProvider(anchor.AnchorProvider.env());
 
   const program = anchor.workspace.SolanaMockTest as Program<SolanaMockTest>;
 
